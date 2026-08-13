@@ -16,23 +16,49 @@ p{
     justify-content: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+    font-size: 20px;
+}
+
+#message-el{
+    font-style: italic;
+    font-size: 25px;
+}
+
+.content-game{
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 260px;
+    height: 90px;
+    margin-bottom: 30px;
+}
+
+#cards{
+    padding-top: 5%;
+}
+
+#cards, #sum{
+    color: green;
 }
 
 .but{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 260px;
+    margin: 0 auto;
 }
 
 .btn{
-    width: 150px;
+    width: 120px;
     height: 40px;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 10px;
     background: green;
     cursor: pointer;
     color: white;
     border: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: #fff 1px solid;
 }
 
 .btn:hover{

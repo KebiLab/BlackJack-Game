@@ -1,5 +1,5 @@
-let firstCard = 11
-let secondCard = 10
+let firstCard = 1
+let secondCard = 1
 let sum = firstCard+secondCard
 let hasBlackJack = false
 let message = ""
